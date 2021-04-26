@@ -1,0 +1,205 @@
+/* основной цвет текста #212121  */
+/* вторичный цвет текста #757575 */
+/* белый #FFFFFF */
+/* акцент #2196F3 */
+/* фон страницы #E5E5E5 */
+/* вторичный фон страницы #F5F4FA */
+/* цвет футера  #2F303A */
+
+:root {
+  --primaty-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primory-white-color: #ffffff;
+}
+.list {
+  list-style-type: none;
+}
+
+body {
+  background-color: #e5e5e5;
+  color: var(--primaty-text-color);
+  font-family: Roboto, sans-serif;
+}
+
+/* Logo */
+.logo {
+  color: #000000;
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.accent {
+  color: var(--accent-color);
+}
+
+/* Футер */
+.footer {
+  background-color: #777;
+}
+.logo-footer {
+  font-family: Raleway, sans-serif;
+  color: var(--primory-white-color);
+
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.address {
+  color: var(--primory-white-color);
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+.contact {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Герой */
+
+.hero-title {
+  color: var(--primory-white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+/* Шапка Сайта
+     site-nav */
+
+.site-nav a {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+/* Шапка Сайта
+    auth-nav */
+
+.auth-nav a {
+  color: var(--primaty-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* Заголовки */
+.advantages-title,
+.section-title,
+.title,
+.list-title {
+  color: var(--title-text-color);
+}
+.advantages-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.section-title {
+  font-weight: b700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+/* Абзаци */
+.advantages-text {
+  color: var(--primaty-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+.title-text {
+  color: var(--primaty-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+.list-types {
+  color: var(--primaty-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
+
+/* Button Заказать услугу*/
+.button.primary {
+  background-color: var(--accent-color);
+  color: var(--primory-white-color);
+  font-family: inherit;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+}
+
+/* Портфолио: наши проекты */
+.list-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+/* Радио кнопки */
+.type-button-list .button {
+  color: var(--title-text-color);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+}
+.type-button-list .button:hover,
+.type-button-list .button:focus {
+  color: white;
+  background-color: #777;
+}
